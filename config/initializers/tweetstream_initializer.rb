@@ -9,6 +9,4 @@ TweetStream.configure do |config|
 end
 
 
-TweetStream::Client.new.track('#broncos', '#ravens') do |status|
-  puts "#{status.text}"
-end
+
